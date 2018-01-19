@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+<title>ChatApps</title>
+<link rel="stylesheet" href="ChatApps.css">
+<script src="ChatApps.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+<div class="page">
+  <div class="main-box device">
+    <div class="screen">
+      <div class="screen-container">
+        <div class="status-bar">
+          <div class="time"><i class="fa fa-clock-o" aria-hidden="true"></i></div>
+          <div class="battery"><i class="fa fa-battery-half" aria-hidden="true"></i></div>
+          <div class="network"><i class="fa fa-signal" aria-hidden="true"></i></div>
+          <div class="wifi"><i class="fa fa-wifi" aria-hidden="true"></i></div>
+        </div>
+        <div class="chat">
+          <div class="chat-container">
+            <div class="user-bar">
+              <div class="back"><i style="font-size:16px" class="fa fa-arrow-left" aria-hidden="true"></i></div>
+              <div class="avatar">
+                <img src="img-avatar.jpg" alt="Avatar">
+              </div>
+              <div class="name">
+                <span>Vikram</span>
+                <span class="status">online</span>
+              </div>
+              <div class="actions more"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+			  <div class="actions videocamera"><i class="fa fa-video-camera" aria-hidden="true"></i></div>
+			  <div class="actions phone"><i class="fa fa-phone" aria-hidden="true"></i></div>
+            </div>
+            <div class="conversation">
+              <div class="conversation-container">
+                <div class="message sent">
+                  Hello!, sir
+                </div>
+                <div class="message received">
+                  How are you?
+                </div>
+                <div class="message sent">
+                  I  am fine & you.
+                </div>
+                <div class="message received">
+                  I am Good
+				</div> 
+				<div class="message sent" id="random">
+				whatsapp?
+                </div>
+              </div>
+              <form class="conversation-compose">
+                <div class="emoji">
+				<i class="fa fa-meh-o" aria-hidden="true"></i>
+                </div>
+                <input class="input-msg" id="input-msg" name="input" placeholder="Type a message" autocomplete="off" autofocus></input>
+                <div class="photo">
+				<i class="fa fa-camera" aria-hidden="true"></i>
+                </div>
+                <button class="send">
+                    <div class="circle">
+					<i class="fa fa-microphone" aria-hidden="true"></i>
+                    </div>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
